@@ -1,6 +1,51 @@
 @charset "utf-8";
 /* CSS Document */
 
+main {
+	text-align: 
+}
+
+header {
+	text-align: center
+}
+
+nav {
+	display: inline-flex;
+}
+
+nav a {
+	margin-left: 20px;
+	margin-right: 10px
+}
+
 #herosection {
-	display: inline-flex
+	display: inline-flex;
+	background-color: aliceblue;
+	align-items: center
+}
+
+#herosection .column1 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#herosection .column2 {
+	text-align: center
+}
+
+#herosection .column2 img {
+	width: 100%;
+	text-align: center;
+	margin-right: -40px
+}
+
+.intro {
+	display: inline-flex;
+	width: 80%;
+	align-items: center;
+	margin-left: 100px
+}
+
+.intro img {
+	width: 
 }
