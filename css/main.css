@@ -42,10 +42,23 @@ nav a {
 .intro {
 	display: inline-flex;
 	width: 80%;
-	align-items: center;
-	margin-left: 100px
+	justify-content: center;
+	margin-left: 100px;
+	margin-top: 50px
 }
 
 .intro img {
-	width: 
+	width: 90%
+}
+
+.events {
+	display: flex;
+	margin-top: 50px;
+}
+
+.eventdate {
+	background-color: aliceblue;
+	width: 90%;
+	margin-left: 10px;
+	margin-right: 10px
 }
