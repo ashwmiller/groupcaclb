@@ -183,7 +183,7 @@ footer {
 #copyright {
 	display: grid;
 	width: 100%;
-	margin-top: 50px;
+	padding-top: 10px;
 	background-color: #7188FF
 }
 
