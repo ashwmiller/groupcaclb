@@ -34,7 +34,7 @@ nav a {
 }
 
 #herosection .column1 {
-	margin-left: 100px;
+	margin-left: 125px;
 	margin-right: -50px;
 	color: white;
 	z-index: 99
@@ -72,12 +72,16 @@ nav a {
 	display: inline-flex;
 	width: 80%;
 	justify-content: center;
-	margin-top: 50px;
-	margin-left: 100px
+	margin-top: 150px;
+	margin-left: 125px
 }
 
 .textcolumn {
 	width: 80%;
+	margin-right: 50px
+}
+
+.textcolumnright {
 	margin-left: 50px
 }
 
@@ -97,14 +101,14 @@ nav a {
 }
 
 #eventscontainer h1 {
-	margin-left: 100px;
+	margin-left: 125px;
 	color: white
 }
 
 .events {
 	width: 80%;
 	display: inline-flex;
-	margin-left: 100px;
+	margin-left: 125px;
 }
 
 .eventdate {
