@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+	font-family: "Lexend", Sans-serif;
+}
+
 #navandhero {
 	background-color: #7188FF
 }
@@ -31,12 +35,18 @@ nav a {
 
 #herosection .column1 {
 	margin-left: 100px;
-	margin-right: 50px;
-	color: white
+	margin-right: -50px;
+	color: white;
+	z-index: 99
+}
+
+.tealtext {
+	color: #6AE5A2
 }
 
 #herosection .column2 {
-	float: right
+	float: right;
+	margin-left: -200px;
 }
 
 #herosection .column2 img {
@@ -87,7 +97,8 @@ nav a {
 }
 
 #eventscontainer h1 {
-	margin-left: 100px
+	margin-left: 100px;
+	color: white
 }
 
 .events {
@@ -97,7 +108,7 @@ nav a {
 }
 
 .eventdate {
-	background-color: #202020;
+	background-color: #404040;
 	width: 90%;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -109,6 +120,11 @@ nav a {
 	width: 80%;
 	margin: auto;
 	padding: 20px
+}
+
+.eventdatetext a {
+	color: #6AE5A2;
+	text-decoration: none
 }
 
 .events h1 {
