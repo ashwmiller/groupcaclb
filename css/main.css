@@ -64,7 +64,8 @@ nav a {
 	width: 150px;
 	height: 50px;
 	border-radius: 5px;
-	background-color: #FF8730
+	background-color: #FF8730;
+	border: none
 }
 
 #CTA a {
@@ -84,6 +85,7 @@ nav a {
 .textcolumn {
 	width: 80%;
 	margin-right: 50px;
+	margin-top: 20px
 }
 
 .textcolumnright {
@@ -172,12 +174,15 @@ footer {
 }
 
 #socialmedia {
-	display: flex;
+	display: inline-grid;
 	width: 33%;
+	margin: auto;
+	margin-top: -20px
 }
 
-#socialmedia img {
-	text-align: center
+#socialmedia a {
+	text-align: center;
+	padding-top: 20px
 }
 
 #copyright {
