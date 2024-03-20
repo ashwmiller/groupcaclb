@@ -6,7 +6,7 @@
 }
 
 p {
-	font-size: 10pt;
+	font-size: 12pt;
 	line-height: 2
 }
 
@@ -85,7 +85,6 @@ nav a {
 .textcolumn {
 	width: 80%;
 	margin-right: 50px;
-	margin-top: 20px
 }
 
 .textcolumnright {
