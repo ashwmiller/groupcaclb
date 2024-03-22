@@ -9,36 +9,35 @@
         <script src="js/main.js"></script>
 
         <title>About Us</title>
-</head>
-<body class="about-page">
-    <header>
-    <nav>
-        <ul>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="ourspace.html">Our Spaces</a></li>
-        <li><a href="joinus.html">How to Join</a></li>
-        <li><a href="funding.html">Funding</a></li>
-      </ul>
-      <br>
-      <h1>About CAC LB</h1>
-    </nav>
-</header>
-
-<body>
-    <main>
+    </head>
+    <body class="about-page">
+        <div id="navandhero">
+            <header>
+                <nav>
+                    <a href="about.html">About Us</a>
+                    <a href="ourspace.html">Our Space</a>
+                    <a href="joinus.html">Join Us</a>
+                    <a href="funding.html">Funding</a>
+                </nav>
+                <h1>About Us</h1>
+            </header>
+            
         <div class="columncontainer">
-            <div class="column1">
+			<div class="textcolumn">
                 <h2>Location </h2>
                 Come visit us at
                     <strong> 4702 Atlantic Avenue, Long Beach, CA, 90807. </strong>
                 <h2>Contact Us</h2>
                 Questions? Comments? Give us a ring or drop us a line.
 
-                <a href="#"> Email Us</a>
+				<button id="CTA"><a href="mailto:example@example.com"> Email Us </a></button>
 
             </div>
+			<div class="imagecolumn">
+				<img src="images/location.jpg"/>
+			</div>
             <br>
-            <div class="column2">
+            <div class="textcolumn">
                 <h2>Our Hours</h2>
                 <br>
                     <P>
@@ -48,7 +47,7 @@
                     </P>
                 </div>
     
-            <div class="column3">
+            <div class="textcolumn textcolumnright">
                 <br>
                 <h2> Mon</h2> <h3> Closed</h3>
                 <br>
@@ -56,94 +55,109 @@
                 <br>
                 <h2>Sat-Sun</h2> <h3> 1:00 pm - 11:00 pm</h3>
             </div>
-    
-            <div class="column4">
-            <h1>People </h1> <h3> Students and staff community-wide make CAC LB what it is.</h3>
-            <br>
-            <a href="#"> Student Leaders </a>
-            <a href="#"> Staff </a>
-            <a href="#"> Advisory Board </a>
-
-            <br>
-                <div class="imagecolumn1">
-                    <img src="images/ahmaya.jpg">
-                    <br>
-                    Ahmaya Martinez
-                </div>
-                
-                <div class="imagecolumn2">
-                    <img src="images/oliver.jpg">
-                    <br>
-                    Oliver Tan
-                </div>
-                
-                <div class="imagecolumn2">
-                    <img src="images/jacob.jpg">
-                    <br>
-                    Jacob Bidrosian
-                </div>
-
-                <div class="imagecolumn2">
-                    <img src="images/merced.jpg">
-                    <br>
-                    Merced Merino                
-                </div>
-
+<section id="peoplecontainer">
+                <h1> People </h1>
+                <h3> Students and staff community-wide make CAC LB what it is.</h3>
                 <br>
-
-                <div class="imagecolumn2">
-                    <img src="images/den.jpg">
-                    <br>
-                    Den Park                
-                </div>
-
-                <div class="imagecolumn2">
-                    <img src="images/mia.jpg">
-                    <br>
-                    Mia Sung                
-                </div>
-
-                <div class="imagecolumn2">
-                    <img src="images/kisha.jpg">
-                    <br>
-                    Kisha Jones                
-                </div>
-
-                <div class="imagecolumn2">
-                    <img src="images/savannah.jpg">
-                    <br>
-                    Savannah Jax               
-                </div>
-
-            </div>
-    
-            <div class="column5">
-                <h1> Community Support </h1>
-                    <br>
-                <h2> Meet our community sponsors </h2>
-                     <br>
+                <a href="#"> Student Leaders </a>
+                <a href="#"> Staff </a>
+                <a href="#"> Advisory Board </a>
+                <section class="people">
+                            <div class="peopleimage">
+                                <img src="images/ahmaya.jpg">
+                            </div>
+                            <br>
+                              <div class="peopletext">
+                                Ahmaya Martinez
+                            </div>
+                            <br>  
+                            <div class="peopleimage">
+                                <img src="images/oliver.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Oliver Tan
+                            </div>
+                            <br>
+                            <div class="peopleimage">
+                                <img src="images/jacob.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Jacob Bidrosian
+                            </div>
+                            <br>
+                            <div class="peopleimage">
+                                <img src="images/merced.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Merced Merino
+                            </div>
+                            <br>
+                            <div class="peopleimage">
+                                <img src="images/den.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Den Park                
+                            </div>
+                            <br>
+                            <div class="peopleimage">
+                                <img src="images/mia.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Mia Sung                
+                            </div>
+                            <br>
+                            <div class="peopleimage">
+                                <img src="images/kisha.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Kisha Jones                
+                            </div>
+                            <br>
+                            <div class="peopleimage">
+                                <img src="images/savannah.jpg">
+                            </div>
+                            <br>
+                            <div class="peopletext">
+                                Savannah Jax               
+                            </div>
+                            <br>
+        </section>
+    </section>
+    <section id="communitysupportcontainer">
+        <h1> Community Support </h1>
+        <h3> Meet our community sponsors </h3>
                 Our sponsors help us make the Collaborative Arts Community at Long Beach what it is. The resources they provide have allowed us to build a vibrant and lively space for visual creatives to bring their ideas to life.
-            </div>
-    
-            <div class="column6">
+    <br>
+            <section class="communitysupport">
     
                 <img src="images/long_beach_unified_school_district.jpg"/>
                 <img src="images/long_beach_public_library.jpg"/>
                 <img src="images/arts_council_for_long_beach.jpg"/>
                 <img src="images/the_art_theatre_long_beach.jpg"/>
-            </div>
+            </section>
+        </section>
     </main>
+    <br>
     <footer>
-        <div class="footer-content">
-            <li><a href="terms.html">Terms + Conditions</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <a href="https://www.instagram.com/caclb/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
-            <a href="https://www.tiktok.com/caclb/" target="_blank"><img src="images/tiktok.png" alt="Tiktok"></a>
+        <div id="termsconditions">
+            <a href="terms.html">Terms + Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>   
         </div>
-        <h3>CAC LB is a registered 501(c)(3)
-            <br>
-            Copyright © 2024 CAC LB. All rights reserved.
-        </h3>
+		<div id="socialmedia">
+			<a href="https://www.instagram.com/caclb/" target="_blank"><img src="images/instagram.png" alt="Instagram logo"></a>
+            <a href="https://www.tiktok.com/caclb/" target="_blank"><img src="images/tiktok.png" alt="Tiktok logo"></a>
+		</div>
     </footer>
-    </body>
-    </html>
+	<div class="footer-divider"></div>
+		<div id="copyright">
+        	<p class="left-text">CAC LB is a registered 501(c)(3)</p>
+    		<p class="right-text">Copyright © 2024 CAC LB. All rights reserved.</p>
+		</div>
+</body>
+</html>
