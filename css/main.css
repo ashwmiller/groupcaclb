@@ -236,10 +236,32 @@ footer {
   }
 
 #location {
-	display: inline-flex
+	display: inline-flex;
+	width: 80%;
+	margin-left: 125px
+}
+
+#map {
+	width: 50%
 }
 
 #hours {
+	display: inline-flex;
+	width: 80%;
+	margin-left: 125px
+}
+
+#hourstext {
+	width: 50%
+}
+
+#hourstimes {
+	width: 50%;
+	display: grid;
+	justify-content: center
+}
+
+.timeslot {
 	display: inline-flex
 }
 
