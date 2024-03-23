@@ -242,3 +242,11 @@ footer {
 #hours {
 	display: inline-flex
 }
+
+#peoplecontainer {
+	display: inline-grid
+}
+
+#people {
+	display: table
+}
