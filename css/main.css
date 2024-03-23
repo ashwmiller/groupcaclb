@@ -222,3 +222,16 @@ footer {
     color: #ffffff;
 	padding-right: 160px;
 }
+
+.cursor {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #FF8730;
+	pointer-events: none;
+	mix-blend-mode:normal; 
+	z-index: 999;
+	transition: transform 0.2s;
+  }
+  
