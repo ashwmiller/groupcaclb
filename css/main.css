@@ -238,3 +238,7 @@ footer {
 #location {
 	display: inline-flex
 }
+
+#hours {
+	display: inline-flex
+}
