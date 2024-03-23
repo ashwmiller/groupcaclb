@@ -235,4 +235,6 @@ footer {
 	transition: transform 0.2s;
   }
 
-  
+#location {
+	display: inline-flex
+}
