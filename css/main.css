@@ -258,15 +258,21 @@ footer {
 #hourstimes {
 	width: 50%;
 	display: grid;
-	justify-content: center
+	justify-content: right
 }
 
 .timeslot {
-	display: inline-flex
+	display: inline-flex;
+}
+
+.timeslot h2 {
+	margin-right: 30px
 }
 
 #peoplecontainer {
-	display: inline-grid
+	display: inline-grid;
+	width: 80%;
+	margin-left: 125px
 }
 
 #people {
