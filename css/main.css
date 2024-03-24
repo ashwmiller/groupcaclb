@@ -274,19 +274,31 @@ footer {
 #peoplecontainer {
 	display: inline-grid;
 	width: 80%;
-	margin-left: 125px
+	margin-left: 125px;
+	margin-top: 100px
 }
 
 #people {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	gap: 50px 50px;
+	gap: 30px 30px;
+}
+
+#peoplecategories {
+	margin-bottom: 50px
+}
+
+#peoplecategories a {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .person {
 	display: grid;
+	text-align: center
 }
+
 
 #communitysupportcontainer {
 	width: 80%;
