@@ -248,11 +248,13 @@ footer {
 #hours {
 	display: inline-flex;
 	width: 80%;
-	margin-left: 125px
+	margin-left: 125px;
+	margin-top: 100px
 }
 
 #hourstext {
-	width: 50%
+	width: 50%;
+	
 }
 
 #hourstimes {
@@ -279,9 +281,21 @@ footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	gap: 10px 10px
+	gap: 50px 50px;
 }
 
 .person {
-	display: grid
+	display: grid;
+}
+
+#communitysupportcontainer {
+	width: 80%;
+	margin-left: 125px
+}
+
+#communitysupport {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px 50px;
+	margin-top: 50px
 }
