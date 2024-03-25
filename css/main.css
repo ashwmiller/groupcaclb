@@ -243,6 +243,11 @@ footer {
 	transition: transform 0.2s;
   }
 
+
+
+
+
+
 #location {
 	display: inline-flex;
 	width: 80%;
@@ -329,6 +334,12 @@ footer {
 	margin-top: 50px
 }
 
+
+
+
+
+
+
 #gallerylab {
 	display: flex;
 	margin-top: 100px;
@@ -381,22 +392,42 @@ footer {
 	margin-right: 20px
 }
 
+
+
+
+
+
+
 #eventschedule {
 	display: flex
+}
+
+#classescontainer {
+	width: 80%;
+	margin-left: 125px;
 }
 
 #classofferings {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 10px 10px
 }
 
-.class img{
-	display: block
+.class {
+	display: inline-grid
 }
 
 .classname {
 	position: relative;
-	top: -100px;
-	left: 100px;
-	z-index: 999
+	text-align: center;
+	top: -120px;
+	z-index: 999;
+	color: white
 }
+
+#mentorshipcontainer {
+	width: 80%;
+	margin-left: 125px;
+	margin-top: 100px
+}
+
