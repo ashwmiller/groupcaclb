@@ -411,7 +411,8 @@ footer {
 
 #eventschedule img {
 	width: 80%;
-	float: right
+	float: right;
+	border-radius: 10px
 }
 
 #classescontainer {
@@ -429,6 +430,10 @@ footer {
 
 .class {
 	display: inline-grid
+}
+
+.class img {
+	border-radius: 10px
 }
 
 .classname {
