@@ -328,3 +328,55 @@ footer {
 	gap: 50px 50px;
 	margin-top: 50px
 }
+
+#gallerylab {
+	display: flex;
+	margin-top: 100px;
+	width: 80%;
+	margin-left: 125px
+}
+
+#gallerylabtext {
+	width: 70%;
+	margin-right: 50px
+}
+
+#gallerylab img {
+	border-radius: 10px
+}
+#volunteercontainer {
+	background-color: #7188FF;
+	height: 300px;
+	margin-top: 100px
+}
+
+#volunteer {
+	display: flex;
+	width: 80%;
+	margin-left: 125px;
+	padding-top: 40px;
+}
+
+#volunteertextleft {
+	margin-right: 50px;
+	color: white
+}
+
+#volunteertextright {
+	color: white;
+}
+
+#gallerycontainer {
+	display: flex;
+	margin-top: 100px;
+	width: 80%;
+	margin-left: 125px
+}
+
+#galleryimgs {
+	display: flex;
+}
+
+#galleryimgs img {
+	margin-right: 20px
+}
