@@ -385,8 +385,18 @@ footer {
 	display: flex
 }
 
-#class {
+#classofferings {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	
+}
+
+.class img{
+	display: block
+}
+
+.classname {
+	position: relative;
+	top: -100px;
+	left: 100px;
+	z-index: 999
 }
