@@ -399,18 +399,22 @@ footer {
 
 
 #eventschedule {
-	display: flex
+	display: flex;
+	width: 80%;
+	margin-left: 125px
 }
 
 #classescontainer {
 	width: 80%;
 	margin-left: 125px;
+	margin-top: 100px
 }
 
 #classofferings {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	gap: 10px 10px
+	gap: 10px 10px;
+	margin-top: 50px
 }
 
 .class {
@@ -426,8 +430,31 @@ footer {
 }
 
 #mentorshipcontainer {
+	width: 100%;
+	display: flex;
+	margin-top: 100px;
+	background-image: url("../images/mentorship_opportunities.jpg");
+	height: 400px;
+	padding-top: 100px
+}
+
+#mentorshipcontent {
+	width: 80%;
+	margin-left: 125px;
+	display: flex;
+	color: white;
+}
+
+#mentorshiptitle {
+	width: 50%
+}
+
+#mentorshiptext {
+	width: 50%
+}
+
+#careercontainer {
 	width: 80%;
 	margin-left: 125px;
 	margin-top: 100px
 }
-
