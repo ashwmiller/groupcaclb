@@ -73,7 +73,21 @@ $(function(){
         
         });
 
-    //3-Text Slide In//
+    //3-Hamburger Menu//
+
+    $("#menu").hide();
+$("#burger").click(function() {
+    $("#menu").slideToggle ("slow");
+});
+
+$(document).click(function() {
+    $("#menu").slideUp ("slow");
+});
+
+$("#burger").click(function(e) {
+    e.stopPropagation();
+    return false;
+});
 
     
 

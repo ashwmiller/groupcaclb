@@ -18,7 +18,7 @@ header {
 	text-align: center;
 	background-color: #7188FF;
 	padding-top: 30px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
 }
 
 header h1 {
@@ -166,7 +166,7 @@ footer {
 #bottomnav a {
 	color: #ffffff;
 	text-align: center;
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 #termsconditions {
@@ -256,7 +256,6 @@ footer {
   }
 
   /* JS Code */
-
 
   
 #location {
