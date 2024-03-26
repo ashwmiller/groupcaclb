@@ -73,22 +73,20 @@ $(function(){
         
         });
 
-    //3-Hamburger Menu//
+    //3-Hamburger Menu//    
+        $("#menu").hide();
+        $("#burger").click(function() {
+            $("#menu").slideToggle ("slow");
+        });
 
-    $("#menu").hide();
-$("#burger").click(function() {
-    $("#menu").slideToggle ("slow");
-});
+        $(document).click(function() {
+            $("#menu").slideUp ("slow");
+        });
 
-$(document).click(function() {
-    $("#menu").slideUp ("slow");
-});
-
-$("#burger").click(function(e) {
-    e.stopPropagation();
-    return false;
-});
-
+        $("#burger").click(function(e) {
+            e.stopPropagation();
+            return false;
+        });
     
 
 
