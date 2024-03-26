@@ -245,11 +245,20 @@ footer {
 	transition: transform 0.2s;
   }
 
+  .popimage {
+	max-height: 100%;
+	transition: transform 0.8 s ease;
+  }
+
+  .CTA {
+	display: inline-block;
+	transition: all 0.3s ease;
+  }
+
+  /* JS Code */
 
 
-
-
-
+  
 #location {
 	display: inline-flex;
 	width: 80%;

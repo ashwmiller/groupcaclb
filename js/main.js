@@ -50,4 +50,32 @@ $(function(){
         });
 
 
+    //2-Image Pop-Up//
+    $(".pop-image").hover(
+        function() {
+            $(this).css("transform", "scale(1.2)");
+        },
+        function() {
+            $(this).css("transform", "scale(1)");
+        });
+    
+    $(document).ready(function() {
+        $(".CTA").hover(function() {
+            $(this).css({
+                "font-size": "19px"
+            });
+        
+        }, function() {
+            $(this).css({
+              "font-size": "14px"
+                });
+            });
+        
+        });
+
+    //3-Text Slide In//
+
+    
+
+
 });
