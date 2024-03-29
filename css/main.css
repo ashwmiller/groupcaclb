@@ -29,13 +29,12 @@ header h1 {
 	color: white
 }
 
-
 nav {
 	display: inline-flex;
 }
 
 nav a:hover {
-color: #FF8730;
+color: #6AE5A2;
 }
 
 nav a {
@@ -298,6 +297,7 @@ footer {
 
 .timeslot {
 	display: inline-flex;
+	align-items: baseline;
 }
 
 .timeslot h2 {
