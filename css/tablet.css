@@ -3,6 +3,21 @@
 @media (max-width: 768px){
 }
 
+#herosection {
+	display: block;
+	text-align: center;
+	width: 100%
+}
+
+#herosection .column1 {
+	margin: auto;
+	width: 80%
+}
+
+#herosection .column2 {
+	display: block
+}
+
 .intro {
 	display: block;
 	text-align: center;
