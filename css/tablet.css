@@ -4,5 +4,32 @@
 }
 
 .intro {
-	display: block
+	display: block;
+	text-align: center;
+	justify-content: center;
+	margin: auto;
+	align-items: center
+}
+
+.intro .imgcolumn {
+	float: right
+}
+
+.intro .textcolumn {
+	margin: auto
+}
+
+#eventscontainer {
+	text-align: center
+}
+
+.events {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.eventdate {
+	width: auto;
+	margin-top: 20px
 }
