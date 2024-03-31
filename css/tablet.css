@@ -15,7 +15,7 @@
 }
 
 #herosection .column2 {
-	display: block
+	display: none
 }
 
 .intro {
@@ -47,4 +47,15 @@
 .eventdate {
 	width: auto;
 	margin-top: 20px
+}
+
+#location {
+	display: block;
+	text-align: center;
+	margin: auto
+}
+
+#location #map {
+	width: 100%;
+	margin: auto
 }
