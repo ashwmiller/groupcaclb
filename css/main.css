@@ -155,8 +155,13 @@ nav a {
 }
 
 .eventdatetext a {
-	color: #6AE5A2;
+	color: #ffffff;
 	text-decoration: none
+}
+
+.eventdatetext a:hover {
+	color: #FF8730;
+	text-decoration: underline
 }
 
 .events h1 {
@@ -174,6 +179,11 @@ footer {
 	background-color: #7188FF;
 	padding-top: 50px;
 	padding-bottom: 20px
+}
+
+#termsconditions a:hover {
+	color: #FF8730;
+	text-decoration: underline
 }
 
 hr {
@@ -450,7 +460,9 @@ hr {
 }
 
 .class {
-	display: inline-grid
+	display: inline-grid;
+	text-align: center;
+	margin: auto
 }
 
 .class img {
