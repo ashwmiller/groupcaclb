@@ -11,11 +11,15 @@ p {
 }
 
 h1 {
-	font-size: 30pt
+	font-size: 25pt
 }
 
 #navandhero {
 	background-color: #7188FF;
+}
+
+.coming-soon {
+	margin-left: 125px;
 }
 
 header {
@@ -32,6 +36,7 @@ header h1 {
 	margin-left: 125px;
 	color: white
 }
+
 
 nav {
 	display: inline-flex;
@@ -58,7 +63,7 @@ nav a {
 	margin-left: 125px;
 	margin-right: -50px;
 	color: white;
-	z-index: 99
+	z-index: 500
 }
 
 .tealtext {
@@ -69,6 +74,7 @@ nav a {
 	float: right;
 	margin-left: -200px;
 }
+
 
 #herosection .column2 img {
 	width: 100%;
@@ -490,6 +496,4 @@ hr {
 	margin-left: 125px;
 	margin-top: 100px
 }
-
-
 

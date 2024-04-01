@@ -53,11 +53,12 @@ $(function(){
     //2-Image Pop-Up//
     $(".pop-image").hover(
         function() {
-            $(this).css("transform", "scale(1.1)");
+            $(this).css("transform", "scale(1.04)");
         },
         function() {
             $(this).css("transform", "scale(1)");
         });
+
     
     $(document).ready(function() {
         $(".CTA").hover(function() {
@@ -73,21 +74,89 @@ $(function(){
         
         });
 
-    //3-Hamburger Menu//    
-        $("#menu").hide();
-        $("#burger").click(function() {
-            $("#menu").slideToggle ("slow");
+        $(".imagecolumn").hover(
+            function() {
+                $(this).css("transform", "scale(1.04)");
+            },
+            function() {
+                $(this).css("transform", "scale(1)");
         });
 
-        $(document).click(function() {
-            $("#menu").slideUp ("slow");
+        //3-Type-In for Coming Soon!// 
+
+        $(document).ready(function() {
+            var str = "Coming Soon!";
+            var spans = '<span>' + str.split(/\s+/).join('</span> <span>') + '</span>';
+            
+            $('.coming-soon h1').html(spans).find('span').hide().each(function(i) {
+                $(this).delay(400 * i).fadeIn(1000);
+            });
         });
 
-        $("#burger").click(function(e) {
-            e.stopPropagation();
-            return false;
+
+         //4-Fade-In for Intro section// 
+
+        $(document).ready(function() {
+            var h2 = $('.intro .textcolumn h2');
+            
+            h2.hide().contents().each(function() {
+                var words;
+                if (this.nodeType === 3) {
+                    words = '<span> ' + this.data.split(/\s+/).join(' </span><span> ') + ' </span>';
+                    $(this).replaceWith(words);
+                }
+            });
+            
+            h2.find('span').hide().each(function() {
+                if (!($.trim(this.innerHTML))) {
+                    $(this).remove();
+                }
+            });
+            
+            h2.show().find('span').each(function(i) {
+                $(this).delay(200 * i).fadeIn(1000);
+            });
+        
+            var paragraph = $('.intro .textcolumn p');
+            
+            paragraph.hide().contents().each(function() {
+                var words;
+                if (this.nodeType === 3) {
+                    words = '<span> ' + this.data.split(/\s+/).join(' </span><span> ') + ' </span>';
+                    $(this).replaceWith(words);
+                }
+            });
+            
+            paragraph.find('span').hide().each(function() {
+                if (!($.trim(this.innerHTML))) {
+                    $(this).remove();
+                }
+            });
+            
+            paragraph.show().find('span').each(function(i) {
+                $(this).delay(200 * i).fadeIn(1000);
+            });
         });
-   
+        
+
+        //5-Hamburger Menu//    
+            $("#menu").hide();
+            $("#burger").click(function() {
+                $("#menu").slideToggle ("slow");
+            });
+
+            $(document).click(function() {
+                $("#menu").slideUp ("slow");
+            });
+
+            $("#burger").click(function(e) {
+                e.stopPropagation();
+                return false;
+            });
+
+
+
+
 
 
 });
