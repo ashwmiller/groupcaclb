@@ -59,6 +59,13 @@ $(function(){
             $(this).css("transform", "scale(1)");
         });
 
+    $(".column2").hover(
+        function() {
+            $(this).css("transform", "scale(1.04)");
+        },
+        function() {
+            $(this).css("transform", "scale(1)");
+        });
     
     $(document).ready(function() {
         $(".CTA").hover(function() {
