@@ -332,14 +332,13 @@ hr {
 #people {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
 	gap: 30px 30px;
 }
 
 #peoplecategories {
 	margin-bottom: 50px;
 	text-align: center;
-	margin-top: 75px
+	margin-top: 50px
 }
 
 #peoplecategories a {
@@ -351,14 +350,14 @@ hr {
 
 .person {
 	display: grid;
-	text-align: center
+	text-align: center;
 }
 
 
 #communitysupportcontainer {
 	width: 80%;
 	margin-left: 125px;
-	margin-top: 75px
+	margin-top: 50px;
 }
 
 #communitysupport {

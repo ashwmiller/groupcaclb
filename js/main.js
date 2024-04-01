@@ -155,8 +155,6 @@ $(function(){
             });
 
 
-
-
-
-
+            //5-Image Carousel// 
+           
 });
