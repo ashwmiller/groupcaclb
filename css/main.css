@@ -43,7 +43,8 @@ nav {
 }
 
 nav a:hover {
-color: #6AE5A2;
+	color: #FF8730;
+	text-decoration: underline
 }
 
 nav a {
