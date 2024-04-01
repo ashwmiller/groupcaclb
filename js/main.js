@@ -144,7 +144,7 @@ $(function(){
                 $(this).delay(200 * i).fadeIn(1000);
             });
         });
-        
+
 
         //5-Hamburger Menu//    
             $("#menu").hide();
@@ -162,6 +162,6 @@ $(function(){
             });
 
 
-            //5-Image Carousel// 
+            //6-Image Carousel// 
            
 });
