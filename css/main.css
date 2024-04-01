@@ -511,256 +511,109 @@ hr {
 	margin-top: 100px
 }
 
-.container {
-	max-width: 1200px;
-	width: 95%;
-  }
-  .slider-wrapper {
+
+  .wrapper {
+	max-width: 1100px;
+	width: 100%;
 	position: relative;
   }
-  .slider-wrapper .slide-button {
-	position: absolute;
+  .wrapper i {
 	top: 50%;
-	outline: none;
-	border: none;
 	height: 50px;
 	width: 50px;
-	z-index: 5;
-	color: #fff;
-	display: flex;
 	cursor: pointer;
-	font-size: 2.2rem;
-	background: #000;
-	align-items: center;
-	justify-content: center;
+	font-size: 1.25rem;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	background: #FF8730;
 	border-radius: 50%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.23);
 	transform: translateY(-50%);
+	transition: transform 0.1s linear;
   }
-  .slider-wrapper .slide-button:hover {
-	background: #404040;
+  .wrapper i:active{
+	transform: translateY(-50%) scale(0.85);
   }
-  .slider-wrapper .slide-button#prev-slide {
-	left: -25px;
-	display: none;
+  .wrapper i:first-child{
+	left: -22px;
   }
-  .slider-wrapper .slide-button#next-slide {
-	right: -25px;
+  .wrapper i:last-child{
+	right: -22px;
   }
-
-  .slider-wrapper .image-list {
+  .wrapper .carousel{
 	display: grid;
-	grid-template-columns: repeat(10, 1fr);
-	gap: 18px;
-	font-size: 0;
-	list-style: none;
-	margin-bottom: 30px;
+	grid-auto-flow: column;
+	grid-auto-columns: calc((100% / 3) - 12px);
 	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	gap: 16px;
+	border-radius: 8px;
+	scroll-behavior: smooth;
 	scrollbar-width: none;
   }
-  .slider-wrapper .image-list::-webkit-scrollbar {
+  .carousel::-webkit-scrollbar {
 	display: none;
   }
-  .slider-wrapper .image-list .image-item {
-	width: 200px;
-	height: 275px;
-	object-fit: cover;
+  .carousel.no-transition {
+	scroll-behavior: auto;
   }
-  .container .slider-scrollbar {
-	height: 24px;
-	width: 100%;
-	display: flex;
-	align-items: center;
+  .carousel.dragging {
+	scroll-snap-type: none;
+	scroll-behavior: auto;
   }
-  .slider-scrollbar .scrollbar-track {
-	background: #ccc;
-	width: 100%;
-	height: 2px;
-	display: flex;
-	align-items: center;
-	border-radius: 4px;
-	position: relative;
-  }
-  .slider-scrollbar:hover .scrollbar-track {
-	height: 4px;
-  }
-  .slider-scrollbar .scrollbar-thumb {
-	position: absolute;
-	background: #000;
-	top: 0;
-	bottom: 0;
-	width: 50%;
-	height: 100%;
+  .carousel.dragging .card {
 	cursor: grab;
-	border-radius: inherit;
+	user-select: none;
   }
-  .slider-scrollbar .scrollbar-thumb:active {
-	cursor: grabbing;
-	height: 8px;
-	top: -2px;
-  }
-  .slider-scrollbar .scrollbar-thumb::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: -10px;
-	bottom: -10px;
-  }
-  /* Styles for mobile and tablets */
-  @media only screen and (max-width: 1023px) {
-	.slider-wrapper .slide-button {
-	  display: none !important;
-	}
-	.slider-wrapper .image-list {
-	  gap: 10px;
-	  margin-bottom: 15px;
-	  scroll-snap-type: x mandatory;
-	}
-	.slider-wrapper .image-list .image-item {
-	  width: 280px;
-	  height: 380px;
-	}
-	.slider-scrollbar .scrollbar-thumb {
-	  width: 20%;
-	}
-  }
-  
-
-  #people1 {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	gap: 30px 30px;
-}
-
-
-  .container1 {
-	max-width: 1200px;
-	width: 95%;
-  }
-  
-  .slider-wrapper1 {
-	position: relative;
-  }
-  
-  .slider-wrapper1 .slide-button {
-	position: absolute;
-	top: 50%;
-	outline: none;
-	border: none;
-	height: 50px;
-	width: 50px;
-	z-index: 5;
-	color: #fff;
+  .carousel :where(.card, .img) {
 	display: flex;
-	cursor: pointer;
-	font-size: 2.2rem;
-	background: #000;
-	align-items: center;
 	justify-content: center;
-	border-radius: 50%;
-	transform: translateY(-50%);
+	align-items: center;
   }
-  
-  .slider-wrapper1 .slide-button:hover {
-	background: #404040;
-  }
-  
-  .slider-wrapper1 .slide-button#prev-slide1 {
-	left: -25px;
-	display: none;
-  }
-  
-  .slider-wrapper1 .slide-button#next-slide1 {
-	right: -25px;
-  }
-  
-  .slider-wrapper1 .image-list1 {
-	display: grid;
-	grid-template-columns: repeat(10, 1fr);
-	gap: 18px;
-	font-size: 0;
+  .carousel .card {
+	scroll-snap-align: start;
+	height: 342px;
 	list-style: none;
-	margin-bottom: 30px;
-	overflow-x: auto;
-	scrollbar-width: none;
+	background: #fff;
+	cursor: pointer;
+	padding-bottom: 15px;
+	flex-direction: column;
+	border-radius: 8px;
+	border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(0, 0, 0);
   }
   
-  .slider-wrapper1 .image-list1::-webkit-scrollbar {
-	display: none;
-  }
-  
-  .slider-wrapper1 .image-list1 .image-item1 {
+  .carousel .card .img {
+	height: 200px;
 	width: 200px;
-	height: 275px;
+	border-radius: 50%;
+  }
+  .card .img img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 	object-fit: cover;
   }
-  
-  .container1 .slider-scrollbar1 {
-	height: 24px;
-	width: 100%;
-	display: flex;
-	align-items: center;
+
+  .carousel .card h2 {
+	font-weight: 500;
+	font-size: 1.56rem;
+	margin: 30px 0 5px;
   }
-  
-  .slider-scrollbar1 .scrollbar-track1 {
-	background: #ccc;
-	width: 100%;
-	height: 2px;
-	display: flex;
-	align-items: center;
-	border-radius: 4px;
-	position: relative;
+  .carousel .card span {
+	color: #6A6D78;
+	font-size: 1.31rem;
   }
-  
-  .slider-scrollbar1:hover .scrollbar-track1 {
-	height: 4px;
-  }
-  
-  .slider-scrollbar1 .scrollbar-thumb1 {
-	position: absolute;
-	background: #000;
-	top: 0;
-	bottom: 0;
-	width: 50%;
-	height: 100%;
-	cursor: grab;
-	border-radius: inherit;
-  }
-  
-  .slider-scrollbar1 .scrollbar-thumb1:active {
-	cursor: grabbing;
-	height: 8px;
-	top: -2px;
-  }
-  
-  .slider-scrollbar1 .scrollbar-thumb1::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: -10px;
-	bottom: -10px;
-  }
-  
-  /* Styles for mobile and tablets */
-  @media only screen and (max-width: 1023px) {
-	.slider-wrapper1 .slide-button {
-	  display: none !important;
+  @media screen and (max-width: 900px) {
+	.wrapper .carousel {
+	  grid-auto-columns: calc((100% / 2) - 9px);
 	}
-  
-	.slider-wrapper1 .image-list1 {
-	  gap: 10px;
-	  margin-bottom: 15px;
-	  scroll-snap-type: x mandatory;
-	}
-  
-	.slider-wrapper1 .image-list1 .image-item1 {
-	  width: 280px;
-	  height: 380px;
-	}
-  
-	.slider-scrollbar1 .scrollbar-thumb1 {
-	  width: 20%;
+  }
+  @media screen and (max-width: 600px) {
+	.wrapper .carousel {
+	  grid-auto-columns: 100%;
 	}
   }
 
