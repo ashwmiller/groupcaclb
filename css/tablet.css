@@ -56,6 +56,39 @@
 }
 
 #location #map {
-	width: 100%;
+	width: 80%;
 	margin: auto
+}
+
+#hours {
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px
+}
+
+#hourstext {
+	width: 100%
+}
+
+#hourstimes {
+	width: 100%;
+	text-align: center;
+	align-content: center
+}
+
+#hourstimes .timeslot {
+	align-content: center;
+	margin: auto
+}
+
+.people {
+	width: 80%;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	margin: auto
+}
+
+.person {
+	
 }
