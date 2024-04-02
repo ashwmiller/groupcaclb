@@ -24,16 +24,26 @@
 	display: none
 }
 
+#introduction {
+	margin-top: 100px
+}
+
 .intro {
 	display: block;
 	text-align: center;
 	justify-content: center;
 	margin: auto;
-	align-items: center
+	align-items: center;
+	margin-bottom: 50px
 }
 
 .intro .imgcolumn {
-	float: right
+	float: right;
+}
+
+.intro img {
+	width: 50%;
+	margin-left: 25%
 }
 
 .intro .textcolumn {
@@ -42,6 +52,10 @@
 
 #eventscontainer {
 	text-align: center
+}
+
+#eventscontainer h1 {
+	margin: auto
 }
 
 .events {
@@ -75,23 +89,23 @@
 }
 
 #hourstext {
-	width: 100%
+	width: 100%;
 }
 
 #hourstimes {
 	width: 100%;
 	margin: auto;
-	text-align: center
+	text-align: center;
+	justify-content: center
 }
 
 #hourstimes .timeslot {
-	margin: auto;
 	width: 100%;
 }
 
 #peoplecontainer {
 	margin: auto;
-	margin-top: 50px
+	margin-top: 100px
 }
 
 #peoplecontainer h2 {
@@ -162,4 +176,46 @@
 
 #eventschedule img {
 	display: none
+}
+
+#classescontainer {
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px
+}
+
+#classofferings {
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	text-align: center
+}
+
+#mentorshipcontainer {
+	height: auto;
+	padding-bottom: 20%
+}
+
+#mentorshipcontent {
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+	margin: auto;
+}
+
+#mentorshipcontent #mentorshiptitle {
+	width: 100%
+}
+
+#mentorshipcontent #mentorshiptext {
+	width: 100%
+}
+
+#careercontainer {
+	display: block;
+	text-align: center;
+}
+
+#careercontainer button {
+	margin-right: 20%
 }
