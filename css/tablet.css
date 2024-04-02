@@ -119,9 +119,47 @@
 #gallerylab {
 	display: block;
 	margin: auto;
-	text-align: center
+	text-align: center;
 }
 
 #gallerylabtext {
 	margin: auto
+}
+
+#gallerylab video {
+	width: 100%;
+	margin-left: 12%;
+	margin-top: 50px
+}
+
+#volunteercontainer {
+	height: auto;
+	padding-bottom: 10%
+}
+
+#volunteer {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+#gallerycontainer {
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px
+}
+
+#gallerycontainer .textcolumnright {
+	margin-top: 50px
+}
+
+#eventschedule {
+	display: block;
+	text-align: center;
+	margin: auto
+}
+
+#eventschedule img {
+	display: none
 }
