@@ -337,19 +337,19 @@ hr {
 	margin-top: 100px
 }
 
-#people {
+.people {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 30px 30px;
 }
 
-#peoplecategories {
+.peoplecategories {
 	margin-bottom: 50px;
 	text-align: center;
 	margin-top: 50px
 }
 
-#peoplecategories a {
+.peoplecategories a {
 	margin-left: 50px;
 	margin-right: 50px;
 	color: #000000;
