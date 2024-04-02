@@ -80,16 +80,22 @@
 
 #hourstimes {
 	width: 100%;
-	margin: auto
+	margin: auto;
+	text-align: center
 }
 
 #hourstimes .timeslot {
 	margin: auto;
-	
+	width: 100%;
 }
 
 #peoplecontainer {
-	margin: auto
+	margin: auto;
+	margin-top: 50px
+}
+
+#peoplecontainer h2 {
+	text-align: center
 }
 
 #communitysupportcontainer {
@@ -108,4 +114,14 @@
 
 #communitysupport img {
 	margin: auto;
+}
+
+#gallerylab {
+	display: block;
+	margin: auto;
+	text-align: center
+}
+
+#gallerylabtext {
+	margin: auto
 }
