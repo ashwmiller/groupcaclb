@@ -164,7 +164,7 @@ $(function(){
 
         
             
-        //7-Image Carousel for Staff// 
+        //6-Image Carousel for Students// 
 
         const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
