@@ -393,9 +393,10 @@ hr {
 	margin-right: 50px
 }
 
-#gallerylab img {
-	border-radius: 10px
+#gallerylab video {
+	width: 100%
 }
+
 #volunteercontainer {
 	background-color: #7188FF;
 	height: 350px;
