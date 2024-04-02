@@ -225,3 +225,27 @@
 #careercontainer button {
 	margin-right: 20%
 }
+
+#termsconditions {
+	display: block;
+	text-align: left;
+	width: 60%
+}
+
+#termsconditions a {
+	text-align: left
+}
+
+#copyright {
+	display: block;
+	padding-bottom: 20px
+}
+
+#copyright .left-text {
+	padding-left: 0px;
+	margin-left: 10%
+}
+
+#copyright .right-text {
+	margin-left: 10%
+}
