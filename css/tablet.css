@@ -3,6 +3,12 @@
 @media (max-width: 768px){
 }
 
+#navandhero h1 {
+	text-align: center;
+	margin: auto;
+	margin-top: 10%
+}
+
 #herosection {
 	display: block;
 	text-align: center;
@@ -57,7 +63,8 @@
 
 #location #map {
 	width: 80%;
-	margin: auto
+	margin: auto;
+	margin-top: 20px
 }
 
 #hours {
@@ -73,22 +80,32 @@
 
 #hourstimes {
 	width: 100%;
-	text-align: center;
-	align-content: center
+	margin: auto
 }
 
 #hourstimes .timeslot {
-	align-content: center;
-	margin: auto
-}
-
-.people {
-	width: 80%;
-	grid-template-columns: 1fr 1fr;
-	text-align: center;
-	margin: auto
-}
-
-.person {
+	margin: auto;
 	
+}
+
+#peoplecontainer {
+	margin: auto
+}
+
+#communitysupportcontainer {
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px
+}
+
+#communitysupport {
+	grid-template-columns: 1fr;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px
+}
+
+#communitysupport img {
+	margin: auto;
 }
