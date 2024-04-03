@@ -5,6 +5,10 @@
 	font-family: "Lexend", Sans-serif;
 }
 
+#hamburgerwrapper {
+	display: none
+}
+
 p {
 	font-size: 12pt;
 	line-height: 2

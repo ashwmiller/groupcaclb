@@ -3,6 +3,42 @@
 @media (max-width: 768px){
 }
 
+/* hamburger menu*/
+#hamburgerwrapper {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	display: flex;
+}
+
+#burger {
+	display: block;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 30px;
+	padding: 5px
+}
+
+#menu {
+	text-align: left;
+	margin-right: 20px;
+	font-size: 20px;
+	padding: 5px;
+	display: grid;
+	align-items: center;
+	background-color: #7188FF
+}
+
+.menuitem {
+	padding-bottom: 10px;
+	padding-top: 10px
+}
+/* hamburger menu*/
+
+#navandhero nav {
+	display: none
+}
+
 #navandhero h1 {
 	text-align: center;
 	margin: auto;
@@ -239,3 +275,4 @@
 	text-align: left;
 	margin-left: 20%
 }
+
