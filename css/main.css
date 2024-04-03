@@ -116,6 +116,14 @@ nav a {
 }
 
 .imagecolumn {
+	width: 80%;
+}
+
+.imagecolumn img {
+	width: 100%
+}
+
+.imagecolumn1 {
 	width: 40%;
 }
 
